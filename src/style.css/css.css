@@ -53,28 +53,28 @@ ul {
   }
 }
 
-.card {
+.card__list {
   display: grid;
   justify-items: center;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .card {
-    grid-template-columns: repeat(1, 1fr);
+  .card__list {
+    grid-template-columns: repeat(1, 280px);
     grid-gap: 20px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .card {
-    grid-template-columns: repeat(2, 1fr);
+  .card__list {
+    grid-template-columns: repeat(2, 336px);
     grid-gap: 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .card {
-    grid-template-columns: repeat(3, 1fr);
+  .card__list {
+    grid-template-columns: repeat(3, 395px);
     grid-gap: 16px;
   }
 }
