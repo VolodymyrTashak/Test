@@ -27,7 +27,7 @@ ul {
   overflow: hidden;
 }
 
-.container {
+/* .container {
   margin-left: auto;
   margin-right: auto;
 }
@@ -144,9 +144,9 @@ ul {
     font-size: 20px;
     line-height: 1.2;
   }
-}
+} */
 
-/* .team {
+.team {
   margin-top: 400px;
   margin-bottom: 200px;
   background-color: #ff6b08;
@@ -160,6 +160,7 @@ ul {
   overflow-x: scroll;
   padding: 24px;
   width: 500px;
+  height: 550px;
   scroll-snap-type: x mandatory;
   scroll-padding: 24px;
   border-radius: 8px;
@@ -171,10 +172,8 @@ ul {
 }
 
 .team-box {
-  width: 80px;
-  height: 80px;
-  padding-right: 210px;
-  padding-left: 210px;
+  width: 350px;
+  padding-left: 75px;
 }
 
 .team-text {
@@ -183,4 +182,84 @@ ul {
   padding-right: 24px;
   scroll-snap-align: start;
   border-radius: 8px;
-} */
+}
+
+.students-card {
+  margin-top: 200px;
+}
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 612px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(223, 0, 255, 0.25);
+  border-radius: 25px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+.card:hover {
+  transform: translate(-50%, -50%) rotateY(180deg);
+}
+.text-back {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50%;
+  background: #131315;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 25px 25px;
+}
+.text-title {
+  color: #ffffff;
+  border-bottom: 1px solid #df08ff;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.text-back-box {
+  widows: 85%;
+  margin: auto;
+}
+.text-back-text {
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: 5%;
+  margin-bottom: 20%;
+}
+.text-back-span {
+  color: #df08ff;
+}
+.image-container {
+  width: 100%;
+  height: 50%;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  visibility: hidden;
+}
+.flip-card-back:hover {
+  background-color: #19191a;
+  color: #ffffff;
+  transform: rotateY(180deg);
+  visibility: visible;
+}
+.flip-card-back-title {
+  color: #ffffff;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50% -50%);
+}
+.flip-card-back-title:hover {
+  transform: translate(-50%, -50%);
+}
