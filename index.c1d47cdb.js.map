@@ -1,0 +1,1 @@
+{"mappings":"AAEqBA,SAASC,cAAc,0BACtBD,SAASC,cAAc","sources":["src/index.js"],"sourcesContent":["(() => {\n  const refs = {\n    openStudentsBtn: document.querySelector('.students-button__open'),\n    closeStudentsBtn: document.querySelector('.students-button__close'),\n  };\n})();\n"],"names":["document","querySelector"],"version":3,"file":"index.c1d47cdb.js.map"}
