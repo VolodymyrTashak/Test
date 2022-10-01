@@ -6,29 +6,473 @@
     <title>Page title</title>
     <link rel="stylesheet" href="./style.css/css.css" />
     <script type="module" src="./index.js"></script>
-    <script src="./js/modal.js"></script>
   </head>
   <body>
-<button type="button" class="btn" data-modal-open>Click</button>
+<!-- <button type="button" class="btn" data-modal-open>Click</button>
 <div class="backdrop is-hidden" data-modal>
   <div class="footer-modal">
-    <div class="students-box">
-      <ul>
-        <li class="student__list">
-          <div class="footer__list-outside">
-            <div class="footer__list-inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+  </div>
+</div> -->
+
+<!-- <div class="students-box">
+      <ul class="students-box__list">
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
               width="100" height="100" /></div>
           </div>
           <div class="students-info">
             <h2 class="students-info__title">Volodymyr Tashak</h2>
             <p class="students-info__text">Developer</p>
-            <p class="students-info__about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quo in facilis accusantium pariatur iusto eveniet ipsam sed autem ad culpa beatae velit atque nesciunt voluptates impedit aliquid. Nisi, impedit.</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+          </div>
+        </li>
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
           </div>
         </li>
       </ul>
-    </div>
+    </div> -->
+
+
+<button type="button" class="students-button__open">Click</button>
+<div class="backdrop-modal">
+  <div class="modal-students">
+    <button type="button" class="students-button__close" data-modal-close>
+      <svg class="modal-students__close-icon">
+        <use href="./images/icon.svg#icon-close-black"></use>
+      </svg>
+    </button>
+         <ul class="students-box__list">
+         <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+               /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+             <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="30" height="30">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+         </li>
+         <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+             <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="30" height="30">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+          </li>
+          <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+             <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="30" height="30">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+            <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="30" height="30">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+             <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="30" height="30">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+            <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="30" height="30">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+             <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="30" height="30">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+            <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="30" height="30">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+             <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="30" height="30">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+            <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="30" height="30">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+        </ul>
   </div>
 </div>
+
+
+
+    <!-- <div class="students-box">
+      <div class="students-box__contain">
+<ul class="students-box__list">
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+             <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="25" height="25">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+             <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="25" height="25">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+      </ul>
+      <ul class="students-box__list">
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+             <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="25" height="25">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+            <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="25" height="25">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+      </ul>
+      <ul class="students-box__list">
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+             <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="25" height="25">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+            <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="25" height="25">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+      </ul>
+      <ul class="students-box__list">
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+             <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="25" height="25">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+            <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="25" height="25">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+      </ul>
+      <ul class="students-box__list">
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+             <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="25" height="25">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+        <li class="student-box__item">
+          <div class="students-box__outside">
+            <div class="students-box__inside"><img class="student-foto" src="./images/GREYHOUND/GREYHOUND-desk1x.jpg" alt="GREYHOUND" 
+              width="100" height="100" /></div>
+          </div>
+          <div class="students-info">
+            <h2 class="students-info__title">Volodymyr Tashak</h2>
+            <p class="students-info__text">Developer</p>
+            <p class="students-info__about">Lorem ipsum dolor sit amet</p>
+            <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="25" height="25">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </li>
+      </ul>
+      </div>
+    </div> -->
+
+
 
 
 <!-- <div class="backdrop is-hidden" data-modal>
@@ -39,7 +483,7 @@
                 </svg>
               </button>
               <div class="team">
-      <div class="team-card">
+     <div class="team-card">
         <article class="team-text">
           <div class="team-box">
             <img
@@ -156,175 +600,12 @@
           </p>
         </article>
       </div>
-    </div>
+     </div>
 
             </div>
           </div>
         </div> -->
-
-
-
-
-
-    <!-- <div class="team">
-      <div class="team-card">
-        <article class="team-text">
-          <div class="team-box">
-            <img
-              src="./images//GREYHOUND/GREYHOUND-desk1x.jpg"
-              alt="GREYHOUND"
-              width="350"
-              height="306"
-            />
-          </div>
-          <h1 class="team-title">HTML</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur, voluptatibus rem! Accusantium repellat asperiores illo
-            dolorum, possimus molestias, architecto aliquam error provident
-            suscipit consequatur officia sequi hic consectetur, tenetur facilis.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur, voluptatibus rem! Accusantium repellat asperiores illo
-            dolorum, possimus molestias, architecto aliquam error provident
-            suscipit consequatur officia sequi hic consectetur, tenetur facilis.
-          </p>
-        </article>
-        <article class="team-text">
-          <div class="team-box">
-            <img
-              src="./images//GREYHOUND/GREYHOUND-desk1x.jpg"
-              alt="GREYHOUND"
-              width="350"
-              height="306"
-            />
-          </div>
-          <h1 class="team-title">HTML</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur, voluptatibus rem! Accusantium repellat asperiores illo
-            dolorum, possimus molestias, architecto aliquam error provident
-            suscipit consequatur officia sequi hic consectetur, tenetur facilis.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur, voluptatibus rem! Accusantium repellat asperiores illo
-            dolorum, possimus molestias, architecto aliquam error provident
-            suscipit consequatur officia sequi hic consectetur, tenetur facilis.
-          </p>
-        </article>
-       <article class="team-text">
-          <div class="team-box">
-            <img
-              src="./images//GREYHOUND/GREYHOUND-desk1x.jpg"
-              alt="GREYHOUND"
-              width="350"
-              height="306"
-            />
-          </div>
-          <h1 class="team-title">HTML</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur, voluptatibus rem! Accusantium repellat asperiores illo
-            dolorum, possimus molestias, architecto aliquam error provident
-            suscipit consequatur officia sequi hic consectetur, tenetur facilis.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur, voluptatibus rem! Accusantium repellat asperiores illo
-            dolorum, possimus molestias, architecto aliquam error provident
-            suscipit consequatur officia sequi hic consectetur, tenetur facilis.
-          </p>
-        </article>
-        <article class="team-text">
-          <div class="team-box">
-            <img
-              src="./images//GREYHOUND/GREYHOUND-desk1x.jpg"
-              alt="GREYHOUND"
-              width="350"
-              height="306"
-            />
-          </div>
-          <h1 class="team-title">HTML</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur, voluptatibus rem! Accusantium repellat asperiores illo
-            dolorum, possimus molestias, architecto aliquam error provident
-            suscipit consequatur officia sequi hic consectetur, tenetur facilis.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur, voluptatibus rem! Accusantium repellat asperiores illo
-            dolorum, possimus molestias, architecto aliquam error provident
-            suscipit consequatur officia sequi hic consectetur, tenetur facilis.
-          </p>
-        </article>
-        <article class="team-text">
-          <div class="team-box">
-            <img
-              src="./images//GREYHOUND/GREYHOUND-desk1x.jpg"
-              alt="GREYHOUND"
-              width="350"
-              height="306"
-            />
-          </div>
-          <h1 class="team-title">HTML</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur, voluptatibus rem! Accusantium repellat asperiores illo
-            dolorum, possimus molestias, architecto aliquam error provident
-            suscipit consequatur officia sequi hic consectetur, tenetur facilis.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur, voluptatibus rem! Accusantium repellat asperiores illo
-            dolorum, possimus molestias, architecto aliquam error provident
-            suscipit consequatur officia sequi hic consectetur, tenetur facilis.
-          </p>
-        </article>
-      </div>
-    </div> -->
-
-    <!-- <section class="students-card">
-      <div class="card">
-        <div class="flip-card-back">
-          <h2 class="flip-card-back-title">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dolor.
-            Quod consequuntur cum dolores, libero, eum repellendus, fuga ipsum
-            necessitatibus odio iure ex magnam optio. Fugiat at tempore quos
-            suscipit!
-          </h2>
-        </div>
-        <div class="image-container">
-          <img
-            src="./images//GREYHOUND/GREYHOUND-desk1x.jpg"
-            alt="GREYHOUND"
-            width="350"
-            height="306"
-          />
-        </div>
-        <div class="text-back">
-          <div class="text-back-box">
-            <h2 class="text-title">Lorem ipsum</h2>
-            <p class="text-back-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur, voluptatibus rem! Accusantium repellat asperiores
-              illo dolorum, possimus molestias, architecto aliquam error
-              provident suscipit consequatur officia sequi hic consectetur,
-              tenetur facilis.
-            </p>
-            <span class="text-back-span">See more --></span>
-          </div>
-        </div>
-      </div>
-    </section> 
-
-    <!-- <div class="card">
-      <div class="card__content">
-        <h3 class="card__title">HTML</h3>
-        <p class="card__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, commodi? Voluptatem modi eaque autem laboriosam a necessitatibus aliquid beatae laborum, ab, iste quidem quo voluptates aut ipsam doloribus dolores exercitationem.</p>
-      </div>
-    </div> -->
+    
+      </section> 
   </body>
 </html>
